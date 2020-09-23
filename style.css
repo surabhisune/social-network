@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*carousel*/
+   .carousel-item {
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("https://images.pexels.com/photos/4466999/pexels-photo-4466999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    width: 100%;
+    height: 100vh;
+   
+  }
+  .carousel-item:nth-child(2) {
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+  }
+  .carousel-item:nth-child(3) {
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("https://images.pexels.com/photos/1586951/pexels-photo-1586951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+  }
+  /*carousel caption*/
+  .carousel-caption{
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
+  }
+  .carousel-caption h1{
+    font-size: 75px;
+    font-weight: bolder;
+  
+}
+.carousel-caption h3{
+  font-size: 30px;
+  font-weight: bolder;
+}
+/*carousel icon*/
+.social{
+  background-color:#0779e4;
+  border-radius: 50%;
+  margin:10px;
+  padding:5px;
+}
+/*container common for whole website*/
+.container{
+  padding:43px 40px;
+}
+
+.work{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card-body h3,h6,h5,h4,p{
+     text-align: center;
+}
+.card-title{
+  color: #0779e4;
+}
+.img8{
+  height: 96%;
+  width:96%;
+  transition: 1s;
+  opacity: 0.6;
+}
+.img8:hover{
+  height:100%;
+  width: 100%;
+  opacity: 10;
+  
+}
+.heading{
+  text-align: center;
+  font-weight: bolder;
+  padding: 30px;
+}
+.col-sm-6{
+  padding-top: 25px;
+}
+.social1{
+  background-color:#0779e4;
+  border-radius: 50%;
+  margin:10px;
+  padding:15px;
+}
+.one p{
+  text-align: left;
+}
+.btn{
+ background-color:#0779e4;
+ margin-left: 30%;
+ border: none;
+ color: white;
+ align-items: center
+}
+.choose p{
+  text-align: left;
+}
+#about{
+  text-align: center;
+  
+}
+.subscription h3{
+  text-align: center;
+}
+#exampleInputEmail1{
+  margin-left: 38%;
+  width: 318px;
+  padding:9px;
+  background-color:rgba(0,0,0,0.8);
+  color:white;
+
+}
+.bn{
+  background-color:#0779e4;
+  padding: 5px;
+  border-radius: 8px;
+  margin-left: 48%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: 2px solid white;
+  color:white;
+}
+.bn:hover{
+  background-color: black;
+}
+.footer{
+  background-color: black;
+  text-align: center;
+  color:white;
+  width: 100%;
+}
+.navbar-brand{
+  font-size: 30px;
+  font-weight: bolder;
+  color: #0779e4;
+}
+ul li a{
+  font-size:20px ;
+  font-weight: 800;
+}
+ul li a:hover{
+  border-bottom: 3px solid #0779e4;
+}
+.test{
+  background-color:#0779e4;
+  }
+  nav{
+    height: 70px;
+  }
+  .card{
+    margin:20px;
+    transition: 1.5s;
+  }
+  .card:hover{
+    background-color: #0779e4;
+    color:black;
+  }
+   .card-title{
+     color:black;
+   }
+   .first, .second, .third ,.fourth, .fifth, .sixth, .seventh{
+    background-color:#ddf3f5;
+   }
+   .sixth, .seventh{
+     background-color: #0779e4;
+   }
+   .about{
+     color:white;
+     
+   }
+   
+  /*responsiveness*/
+  @media only screen and (max-width: 991px) {
+    li{
+      text-align: center;
+    }
+    .navbar-nav{
+      position: fixed;
+      top:70px;
+      right: 0;
+      width: 80%;
+      height: 100%;
+      padding: 2rem;
+      background-color:black;
+      transition: 0.5s;
+  }
+  .carousel-caption h1{
+    font-size: 45px;
+    font-weight: bolder;
+  
+}
+.carousel-caption h3{
+  font-size: 15px;
+  font-weight: bold;
+}
+.social{
+  background-color:#0779e4;
+  border-radius: 50%;
+  margin:7px;
+  padding:4px;
+}
+  .socialmedia{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link{
+  font-size: 30px;
+  padding:20px;
+}
+.work{
+  display: flex;
+  flex-direction: column;
+}
+#exampleInputEmail1{
+  margin-left: 25%;
+  width: 230px;
+  padding:9px;
+}
+.card{
+  margin:20px;
+}
+.col-sm-4{
+  margin: 20px;
+}
+.card:hover{
+  background-color: #0779e4;
+  color:black;
+}
+.img8{
+  height: 96%;
+  width:96%;
+  transition: 1s;
+  opacity: 0.6;
+}
+.img8:hover{
+  height:100%;
+  width: 100%;
+  opacity: 10;
+  
+}
+.ftr{
+  font-size:7px;
+}
+  }
+  @media only screen and (max-width: 600px) { 
+    #exampleInputEmail1{
+      margin-left: 7%;
+      width: 318px;
+      padding:9px;
+      background-color:rgba(0,0,0,0.8);
+      color:white;
+    
+    }
+    .bn{
+      background-color:#0779e4;
+      padding: 3.5px;
+      border-radius: 8px;
+      margin-left: 42%;
+      margin-bottom: 20px;
+      cursor: pointer;
+      border: 2px solid white;
+      color:white;
+    }
+  }
